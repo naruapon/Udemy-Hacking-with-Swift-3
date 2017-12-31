@@ -28,15 +28,18 @@ class Animal {
 var a: Int = 15
 
 //creating objects from the Animal class
+//สร้าง วัตถุ จาก คลาส Animal
 var tiger = Animal()
 var wolf = Animal()
 
 //changing the name of properties
+//ทำการเปลี่ยนแปลงค่า properties
 wolf.Name = "Bobcat"
 print(wolf.Name)
 print(tiger.Name)
 
 //calling the function using dot syntax
+//การเรียกใช้ฟังก์ชันภายในคลาส
 tiger.feedMe()
 
 
